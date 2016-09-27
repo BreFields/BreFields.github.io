@@ -1,8 +1,92 @@
-.dolphin {
-font-family: Montserrat;
+
+body {
+    font-size: 18px;
+    background-image: url("http://i65.tinypic.com/wwn0x5.png"); 
+    
+    
+}
+    
+
+h1 {
+    position: relative;
+    left: 550px;
+    top: px;
 }
 
-.lion {
-  color: deepskyblue;
-font-family: monospace;
+h3 {
+    position: relative;
+    left: 550px;
+ 
 }
+
+h2 {
+    position: relative;
+    left: 500px;
+    top: 7px;
+}
+
+p.three {
+
+    background: #e6e6fa;
+    border: dotted;
+    width: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+}
+
+
+
+p.six {
+
+    background: #AED6F1;
+    border: dotted;
+    width: 500px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+}
+
+p.seven {
+
+    background: #EDBB99;
+    border: dotted;
+    width: 500px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+}
+
+      
+    
+    h3 {
+    text-align: left;
+}
+  
+   
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
